@@ -1,0 +1,11 @@
+/* counter => reapeat a word sequentially each word */
+<style>
+body{
+    counter-reset: section;
+}
+p::before{
+    counter-increment: section;
+    content: "hello " counter(section);
+}
+</style>
+
