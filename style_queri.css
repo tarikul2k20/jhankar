@@ -1,0 +1,30 @@
+.container{
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.container .food{
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.container .food img{
+    width: 100%;
+}
+@media (max-width:700px) {
+    .container .food{
+        max-width: 200px;
+        margin: 5px;
+        padding: 8px;
+
+    }
+    .container{
+        justify-content: space-evenly;
+    }
+}
